@@ -82,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
         RequestQueue rq = Volley.newRequestQueue(getApplicationContext());
         rq.add(myRquest);
     }
-
     public void respuestaGuardar(JSONObject respuesta){
 
         try {
