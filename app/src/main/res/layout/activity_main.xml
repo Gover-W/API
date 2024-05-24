@@ -9,6 +9,12 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+   <Button
+       android:id="@+id/btn_guardar"
+       android:layout_width="200dp"
+       android:layout_height="50dp"
+      android:text="Guardar"/>
+
    <androidx.recyclerview.widget.RecyclerView
        android:id="@+id/rcv_personaje"
        android:layout_width="match_parent"
